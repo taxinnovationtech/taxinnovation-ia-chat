@@ -13,7 +13,7 @@ var atualizar_financeiro = function fin (event){
 }
 
 var finalizar_app = function fin (event){
-    let botHtml = '<p class="botText"><span>' + 'Aguarde a análise do CNPJ informado ficar pronta, ou atualize a página e tente cadastrar um novo. A LAWTECH IA agradece.' + '</span></p>';
+    let botHtml = '<p class="botText"><span>' + 'Aguarde a análise do CNPJ informado ficar pronta, ou atualize a página e tente cadastrar um novo. A TAXINNOVATION IA agradece.' + '</span></p>';
     $("#chatbox").append(botHtml);
     document.getElementById("chat-bar-bottom").scrollIntoView(true);
     document.getElementById('btAtualizar').removeEventListener('click', finalizar_app);
